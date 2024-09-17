@@ -13,7 +13,7 @@ postman[Symbol.for("initial")]({
 export default function() {
   postman[Request]({
     name: "test1",
-    id: "830c1226-c0c3-41cf-ad4c-fc73030d7a1b",
+    id: "620d7da9-37e1-418b-b39e-22702fbebf52",
     method: "POST",
     address: "https://reqres.in/api/users",
     data: '{\r\n    "name": "lotfi",\r\n    "job": "leader"\r\n}',
@@ -40,7 +40,7 @@ export default function() {
 
   postman[Request]({
     name: "test2",
-    id: "3eeee251-1fdf-4afb-8b7f-d97c2835ecc1",
+    id: "4eba4130-a0bf-4875-8e6e-80def576d6be",
     method: "GET",
     address: "https://reqres.in/api/users/2",
     post(response) {
